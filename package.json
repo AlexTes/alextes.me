@@ -4,5 +4,9 @@
   "description": "My personal page.",
   "repository": "git@github.com:AlexTes/alextes.me.git",
   "author": "Alexander Tesfamichael <alex.tesfamichael@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "deploy": "yarn run deploy:files",
+    "deploy:files": "sh script/deploy-files.sh"
+  }
 }
